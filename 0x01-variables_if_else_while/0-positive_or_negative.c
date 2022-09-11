@@ -7,20 +7,29 @@
  * 
  * Description:using the main function 
  * this program prints "programming is positive, zero, or negative
- * Return: Always (0)
+ * Return:
  */
 int main(void)
 {
 	int n;
+	int l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("% is zero\n", n);
-	else if (n < 0)
-		printf("%d is negative\n", n);
+	l = n % 10;
+
+	if (n > 5)
+	{
+		printf("last digit of %d is %d and greater than 5 \n", n, l);
+	}
+	else if (l == 0)
+	{
+		printf("last digit of %d is %d and is 0\n", n, l);
+	}
+	else
+	{
+		printf("last digit of %d is %d and is less than 0 and not 0\n", n, l);
+	}
 	return (0);
 
 }
