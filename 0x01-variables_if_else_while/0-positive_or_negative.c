@@ -3,33 +3,25 @@
 #include <stdio.h>
 
 /**
- * main - print if the number is positive, zero, or negative
- * 
- * Description:using the main function 
- * this program prints "programming is positive, zero, or negative
- * Return: 0
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
+ * Return: Always 0 (Success)
  */
+
 int main(void)
-{
-int n;
-int l;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-l = n % 10;
+{
 
-	if (n > 5)
-{
-	printf("Last digit of %d is %d and greater than 5 \n", n, l);
-}
-	else if (l == 0)
-{
-	printf("Last digit of %d is %d and is 0\n", n, l);
-}
-	else
-{
-	printf("Last digit of %d is %d and is less than 0 and not 0\n", n, l);
-}
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
 	return (0);
 
 }
