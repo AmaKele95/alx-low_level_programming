@@ -3,8 +3,8 @@
 
 
 /**
- * main -  prints Holberton, followed by a new line
- *
+ * main -  prints _putchar
+ * 
  * Return: Always 0 (Success)
  */
 
@@ -21,7 +21,7 @@ int main(void)
 	_putchar('o');
 	_putchar('n');
 	_putchar('\n');
-	
+
 	return (0);
 
 }
