@@ -1,4 +1,5 @@
-#include "holberton.h"
+lude "holberton.h"
+
 
 
 /**
@@ -19,7 +20,6 @@ int main(void)
 	_putchar('o');
 	_putchar('n');
 	_putchar('\n');
-	
 	
 	return (0);
 
