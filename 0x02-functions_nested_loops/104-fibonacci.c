@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 
 
 /**
@@ -28,7 +28,7 @@ int main(void)
 
 
 
-	printf("%lu", j);
+	printf(", %lu", j);
 
 
 
