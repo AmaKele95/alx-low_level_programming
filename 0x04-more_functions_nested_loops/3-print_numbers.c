@@ -3,7 +3,7 @@
  * print_numbers - prints the numbers
  *
  */
-int print_numbers(void)
+void print_numbers(void)
 {
 	int i;
 	
