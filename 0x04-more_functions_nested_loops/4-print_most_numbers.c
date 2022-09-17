@@ -17,29 +17,25 @@
 
 
 void print_most_numbers(void)
-
 {
-
-	int n;
-
-
-
-	for (n = 48; n < 58; n++)
-
+	
+	int i;
+	
+	
+	for (i = 0; i < 10; i++)
+	
 	{
-
-		if ((n == 50) || (n == 52))
-
+		
+		if (i != 2 && i != 4)
+		
 		{
-
-			continue;
-
+			
+			_putchar(i + '0');
+		
 		}
-
-		putchar(n);
-
+	
 	}
+	
+	_putchar('\n');
 
-	putchar(10);
 }
-
