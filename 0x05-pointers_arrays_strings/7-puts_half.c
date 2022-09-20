@@ -12,7 +12,7 @@ void puts_half(char *str)
 {
 	int i;
 	int oE = 0;
-	
+
 	if (_strlen(str) % 2 != 0)
 	{
 		oE += 1;
