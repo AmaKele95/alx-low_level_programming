@@ -18,7 +18,7 @@
 
  */
 
-char *_memset(char *s, char b, unsigned int n)
+char *0_memset(char *s, char b, unsigned int n)
 
 {
 
@@ -37,4 +37,4 @@ char *_memset(char *s, char b, unsigned int n)
 
 
 	return (s);
-
+}
