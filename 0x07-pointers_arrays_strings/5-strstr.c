@@ -5,19 +5,12 @@
 
 
 /**
-
- * *_strstr - locates a substring
-
- * @haystack: string to search in
-
+ * _strstr - locates a substring
+ * @haystack: string to search n
  * @needle: substring to look for
-
  *
-
  * Return: pointer to the beginning of the located substring
-
  * or NULL if the substring is not found
-
  */
 
 char *_strstr(char *haystack, char *needle)
@@ -49,4 +42,4 @@ char *_strstr(char *haystack, char *needle)
 	}
 
 	return (NULL);
-
+}
