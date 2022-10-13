@@ -5,15 +5,10 @@
 #include "3-calc.h"
 
 /**
-
  * main - main function
-
  * @argc: arguments
-
  * @argv: array of args
-
  * Return: return something
-
  */
 
 int main(int argc, char *argv[])
