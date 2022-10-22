@@ -1,29 +1,34 @@
-SECTION .data
+#include "lists.h"
 
-msg:	db "Hello, Holberton", 0
+/**
+ * list_len - returns the number of elements in a list.
+ * @h: singly linked list.
+ *
+ * Return: number of elements in the list.
+ */
 
-fmt:	db "%s", 10, 0
+size_t list_len(const list_t *h)
 
+{
 
-
-	SECTION .text
-
-	extern printf
-
-	global main
-
-main:
-
-	mov esi, msg
-
-	mov edi, fmt
-
-	mov eax, 0
-
-	call printf
+		size_t count;
 
 
 
-	mov eax, 0
+			count = 0;
 
-	ret
+				while (h != NULL)
+
+						{
+
+									h = h->next;
+
+											count++;
+
+												}
+
+
+
+					return (count);
+
+}
