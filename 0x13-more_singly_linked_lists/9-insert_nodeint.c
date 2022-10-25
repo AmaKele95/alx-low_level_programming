@@ -3,21 +3,13 @@
 
 
 /**
-
 * insert_nodeint_at_index - a function that inserts a new
-
 * node at a given position
-
 * @head: a pointer to the head of the linked list
-
 * @idx: the index of the list where the new node should be added.
-
 * Index starts at 0
-
 * @n: the data to be added to the new node
-
 * Return: returns the address of the new node
-
 */
 
 
